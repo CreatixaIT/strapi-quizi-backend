@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
       },
       options: {
 
-        ssl: true,
+        ssl: false,
       },
     },
   },
