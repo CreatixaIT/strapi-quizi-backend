@@ -1,0 +1,22 @@
+{
+  "collectionName": "answer",
+  "info": {
+    "name": "Answer ",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "right_answer": {
+      "type": "string"
+    },
+    "answer01": {
+      "type": "string"
+    },
+    "answer02": {
+      "type": "string"
+    },
+    "answer03": {
+      "type": "string"
+    }
+  }
+}
