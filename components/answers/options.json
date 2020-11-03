@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_answers_options",
+  "info": {
+    "name": "Options",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Option": {
+      "type": "string"
+    },
+    "CorrectAnswer": {
+      "type": "boolean"
+    }
+  }
+}

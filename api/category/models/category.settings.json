@@ -13,9 +13,9 @@
     "question_level": {
       "type": "string"
     },
-    "questions": {
-      "collection": "question",
-      "via": "category"
+    "quiz_questions": {
+      "via": "category",
+      "collection": "quiz-question"
     }
   }
 }

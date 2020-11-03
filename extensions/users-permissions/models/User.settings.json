@@ -68,6 +68,12 @@
     },
     "payOutAccountType": {
       "type": "string"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "money": {
+      "type": "integer"
     }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quiz_questions",
+  "info": {
+    "name": "QuizQuestion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Option01": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.options"
+    },
+    "Option02": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.options"
+    },
+    "Option03": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.options"
+    },
+    "Option04": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.options"
+    },
+    "category": {
+      "model": "category",
+      "via": "quiz_questions"
+    }
+  }
+}
