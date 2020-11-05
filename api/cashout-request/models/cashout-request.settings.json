@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "cashout_requests",
   "info": {
-    "name": "cashout_request"
+    "name": "cashout_request",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,10 +23,16 @@
     "paid": {
       "type": "boolean"
     },
-    "users_permissions_user": {
+    "number": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "cashout_requests"
+      "via": "cashoutRequests"
     }
   }
 }

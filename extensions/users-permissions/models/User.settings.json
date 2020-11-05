@@ -75,8 +75,8 @@
     "money": {
       "type": "integer"
     },
-    "cashout_requests": {
-      "via": "users_permissions_user",
+    "cashoutRequests": {
+      "via": "user",
       "collection": "cashout-request"
     }
   }
