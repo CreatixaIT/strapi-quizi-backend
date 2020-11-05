@@ -74,6 +74,10 @@
     },
     "money": {
       "type": "integer"
+    },
+    "cashout_requests": {
+      "via": "users_permissions_user",
+      "collection": "cashout-request"
     }
   }
 }

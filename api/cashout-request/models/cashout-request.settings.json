@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cashout_requests",
+  "info": {
+    "name": "cashout_request"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "boolean"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "cashout_requests"
+    }
+  }
+}
