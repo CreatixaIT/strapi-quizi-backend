@@ -80,7 +80,10 @@
       "via": "user"
     },
     "country": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "Bangladesh",
+      "unique": false
     }
   }
 }
