@@ -16,6 +16,10 @@
     "quiz_questions": {
       "via": "category",
       "collection": "quiz-question"
+    },
+    "quiz_question_pakistans": {
+      "via": "category",
+      "collection": "quiz-question-pakistan"
     }
   }
 }

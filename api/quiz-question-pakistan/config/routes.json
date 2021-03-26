@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quiz-question-pakistans",
+      "handler": "quiz-question-pakistan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quiz-question-pakistans/count",
+      "handler": "quiz-question-pakistan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quiz-question-pakistans/:id",
+      "handler": "quiz-question-pakistan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quiz-question-pakistans",
+      "handler": "quiz-question-pakistan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quiz-question-pakistans/:id",
+      "handler": "quiz-question-pakistan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quiz-question-pakistans/:id",
+      "handler": "quiz-question-pakistan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

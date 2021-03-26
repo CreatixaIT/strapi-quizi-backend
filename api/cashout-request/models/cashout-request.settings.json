@@ -30,9 +30,13 @@
       "type": "string"
     },
     "user": {
+      "via": "cashoutRequests",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "cashoutRequests"
+      "model": "user"
+    },
+    "quiz_question_pakistans": {
+      "via": "category",
+      "collection": "quiz-question-pakistan"
     }
   }
 }

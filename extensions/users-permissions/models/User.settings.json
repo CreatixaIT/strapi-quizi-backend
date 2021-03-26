@@ -76,8 +76,11 @@
       "type": "integer"
     },
     "cashoutRequests": {
-      "via": "user",
-      "collection": "cashout-request"
+      "collection": "cashout-request",
+      "via": "user"
+    },
+    "country": {
+      "type": "string"
     }
   }
 }

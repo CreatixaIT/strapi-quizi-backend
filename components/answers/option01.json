@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_answers_option01s",
+  "info": {
+    "name": "Option01",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "Option": {
+      "type": "string"
+    },
+    "CorrectAnswer": {
+      "type": "boolean"
+    }
+  }
+}
